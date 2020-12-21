@@ -1,0 +1,9 @@
+<h1><%= @blogger.name %><h1>
+
+<div>
+    TOTAL LIKES: <%= @blogger.total_likes %>
+</div>
+
+<div>
+    MOST LIKES: <%= link_to @blogger.most_likes.title, @blogger.most_likes %>
+</div>
